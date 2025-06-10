@@ -19,12 +19,12 @@ int main() {
         right_sum += a[i];
 	left_sum -= a[i];
 	if (left_sum == right_sum) {
-	    cout << "find" << "\n";
+	    cout << "found" << "\n";
 	    ok = false;
 	}
     }
     if (ok) {
-       cout << "NO" << "\n";
+       cout << "Not Found" << "\n";
     }
     return 0;
 }
